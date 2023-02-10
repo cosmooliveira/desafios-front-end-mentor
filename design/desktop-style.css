@@ -67,3 +67,6 @@ div{
     left: 50%;
     width: 300px;
 }
+div#container{
+    background-color: white;
+}
