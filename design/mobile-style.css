@@ -1,0 +1,20 @@
+@charset "UFT-8";
+@media screen and (max-width:380px) {
+
+    section{
+        width: 250px;
+        height: 550px;
+        
+        
+    }
+
+    div{
+        width: 250px;
+    }
+    img{
+        width: 250px;
+    }
+    body{
+        background-color: hsl(220, 15%, 55%);
+    }
+}
