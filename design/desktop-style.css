@@ -12,50 +12,39 @@
 body{
     background-color: hsl(212, 45%, 89%);
 }
-section{
+div#container{
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    
+}
+div#conteudo{
     position: absolute;
-    background-color: hsl(0, 0%, 100%);
+    background-color: white;
+    width: 700px;
+    height: 1000px;
     top: 50%;
     left: 50%;
-    padding: 10px 15px;
     transform: translate(-50%, -50%);
-    width: 300px;
-    height: 500px;
-    border-radius: 15px;
-    transition: width 0.3s, heigth 0.3s;
-}
+    padding: 30px;
+    border-radius: 20px;
 
-main{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-   
 }
-
 img{
-    border-radius: 15px;
     display: block;
-    height: 300px;
-    
-    
-    
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
 }
-div#container h1, p{
-    position: relative;
+h1{
+    font-size: 3em;
     text-align: center;
-}
-div#container h1{
     padding-top: 25px;
 }
-div#container p{
-    color: rgba(0, 0, 0, 0.555);
-    padding: 14px;
-}
-div{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 48%;
-    left: 50%;
-    width: 300px;
-    
+
+p{
+    padding: 1.5em 4em;
+    font-size: 1.8em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
 }
