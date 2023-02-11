@@ -11,6 +11,7 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
+    margin-top: 50px;
 }
 div#container{
     position: relative;
