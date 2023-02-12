@@ -11,7 +11,7 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
-    margin-top: 50px;
+    
 }
 div#container{
     position: relative;
@@ -37,7 +37,7 @@ img{
     margin: auto;
     border-radius: 20px;
 }
-h1{
+ h1{
     font-size: 3em;
     text-align: center;
     padding-top: 25px;
